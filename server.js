@@ -13,7 +13,7 @@ const botToken = process.env.TELEGRAM_BOT_TOKEN;
 const chatId = process.env.TELEGRAM_CHAT_ID;
 let bot;
 
-if (botToken && chatId && botToken !== 'your_bot_token_here') {
+if (botToken && chatId && botToken !== '8299980747:AAE-wNw5rmOJae2NM-sJwqzdtEi0Qqd0oHA') {
     bot = new TelegramBot(botToken, { polling: false });
     console.log('🤖 Telegram Bot initialized.');
 }
@@ -81,3 +81,4 @@ app.post('/send', async (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
