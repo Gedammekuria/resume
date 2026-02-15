@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Gedam Mekuria - Electrical & Computer Engineer, IT Support Specialist, and Website Developer.">
+    <title>Gedam Mekuria | Electrical & Computer Engineer Portfolio</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">Gedam<span>.M</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="menu-btn" id="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text animate-reveal">
+                <p class="greeting">Hello, I'm</p>
+                <h1>Gedam Mekuria</h1>
+                <h2 class="dynamic-text">I am an <span id="typewriter"></span></h2>
+                <p class="hero-desc">Over 2 years of experience in IT Support & Engineering. Dedicated to delivering
+                    state-of-the-art solutions in CCTV, Networking, and Web Development.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="assets/Gedam_Mekuria_CV.pdf" class="btn btn-outline" download><i
+                            class="fas fa-download"></i> Download CV</a>
+                </div>
+            </div>
+            <div class="hero-image animate-reveal">
+                <div class="image-box">
+                    <!-- Avatar/Profile Image Placeholder - Can use generate_image tool if needed later -->
+                    <div class="profile-placeholder"><img src="./assets/myprofile.png " width="350px" height="350px"
+                            alt=""></div>
+                    <div class="blob-shape"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-info animate-reveal">
+                    <h3>Engineering Excellence & IT Solutions</h3>
+                    <p>I am an Electrical and Computer Engineering graduate with a passion for building and maintaining
+                        complex systems. With more than 2 years of IT support experience, I've honed my skills in
+                        troubleshooting and system integration.</p>
+                    <div class="certifications">
+                        <div class="cert-item"><i class="fas fa-certificate"></i> Fundamentals of Programming</div>
+                        <div class="cert-item"><i class="fas fa-certificate"></i> Android Development Fundamentals</div>
+                        <div class="cert-item"><i class="fas fa-certificate"></i> Artificial Intelligence Certified
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats animate-reveal">
+                    <div class="stat-card glass">
+                        <span class="stat-num">2+</span>
+                        <span class="stat-label">Years Exp.</span>
+                    </div>
+                    <div class="stat-card glass">
+                        <span class="stat-num">100%</span>
+                        <span class="stat-label">Client Approval</span>
+                    </div>
+                    <div class="stat-card glass">
+                        <span class="stat-num">10+</span>
+                        <span class="stat-label">Projects Done</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section-padding" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <!-- Technical Skills -->
+                <div class="skill-category animate-reveal">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Electrical Engineering</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>IT Support & Troubleshooting</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>CCTV & Security Systems</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Microsoft Office Pack</span>
+                            <span>98%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="98%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Development Skills -->
+                <div class="skill-category animate-reveal">
+                    <h3>Development & Design</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Web Development (HTML/CSS/JS)</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Node.js Backend</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Graphic Design</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Video Editing</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="82%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding" id="services">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <div class="services-grid">
+                <!-- CCTV & Alarm -->
+                <div class="service-card glass animate-reveal">
+                    <div class="service-icon"><i class="fas fa-video"></i></div>
+                    <h3>CCTV & Alarm Systems</h3>
+                    <p>Professional installation of CCTV cameras, Fire, and Door Alarm systems for maximum security.</p>
+                    <a href="javascript:void(0)" class="service-link" data-service="cctv">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                    <div class="service-details-content" id="details-service-cctv" style="display:none;">
+                        <h4>CCTV & Alarm Systems</h4>
+                        <p>We provide end-to-end security solutions for residential and commercial properties.</p>
+                        <ul>
+                            <li><strong>High-Resolution Cameras:</strong> Installation of 4K and IP cameras with night
+                                vision.</li>
+                            <li><strong>Remote Monitoring:</strong> Set up mobile and web access for real-time
+                                surveillance.</li>
+                            <li><strong>Alarm Integration:</strong> Smart fire and door sensors that notify your phone
+                                instantly.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Networking -->
+                <div class="service-card glass animate-reveal">
+                    <div class="service-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Networking Solutions</h3>
+                    <p>Robust networking setup and maintenance for offices and residential spaces.</p>
+                    <a href="javascript:void(0)" class="service-link" data-service="networking">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                    <div class="service-details-content" id="details-service-networking" style="display:none;">
+                        <h4>Networking Solutions</h4>
+                        <p>Reliable and secure connectivity is the backbone of any modern organization.</p>
+                        <ul>
+                            <li><strong>Structure Cabling:</strong> Organized Cat6/Fiber installation for high-speed
+                                data.</li>
+                            <li><strong>Wi-Fi Optimization:</strong> Mesh network setup for seamless coverage without
+                                dead zones.</li>
+                            <li><strong>Server Maintenance:</strong> Professional rack management and troubleshooting.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Web Development -->
+                <div class="service-card glass animate-reveal">
+                    <div class="service-icon"><i class="fas fa-code"></i></div>
+                    <h3>Website Development</h3>
+                    <p>Creating beautiful, responsive, and animated websites that stand out.</p>
+                    <a href="javascript:void(0)" class="service-link" data-service="web">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                    <div class="service-details-content" id="details-service-web" style="display:none;">
+                        <h4>Website Development</h4>
+                        <p>I build modern, high-performance websites tailored to your business goals.</p>
+                        <ul>
+                            <li><strong>Custom Design:</strong> Unique interfaces that reflect your brand identity.</li>
+                            <li><strong>Responsive Layouts:</strong> Mobile-first development that works on all devices.
+                            </li>
+                            <li><strong>Interactive Features:</strong> High-end animations and smooth user transitions.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- IT Support -->
+                <div class="service-card glass animate-reveal">
+                    <div class="service-icon"><i class="fas fa-headset"></i></div>
+                    <h3>IT Support</h3>
+                    <p>Expert troubleshooting and technical assistance for all your IT needs.</p>
+                    <a href="javascript:void(0)" class="service-link" data-service="itsupport">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                    <div class="service-details-content" id="details-service-itsupport" style="display:none;">
+                        <h4>IT Support & Troubleshooting</h4>
+                        <p>Fast and efficient resolution for your software and hardware challenges.</p>
+                        <ul>
+                            <li><strong>Diagnostics:</strong> Quick identification of system bottlenecks and hardware
+                                failures.</li>
+                            <li><strong>Software Setup:</strong> Installation and configuration of OS and critical
+                                business apps.</li>
+                            <li><strong>Security Audits:</strong> Virus removal and implementation of firewall
+                                protection.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Design & Editing -->
+                <div class="service-card glass animate-reveal">
+                    <div class="service-icon"><i class="fas fa-pen-nib"></i></div>
+                    <h3>Design & Editing</h3>
+                    <p>Logo design and professional video editing to enhance your brand presence.</p>
+                    <a href="javascript:void(0)" class="service-link" data-service="design">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                    <div class="service-details-content" id="details-service-design" style="display:none;">
+                        <h4>Design & Video Editing</h4>
+                        <p>Stunning visual content that captures attention and tells your brand's story.</p>
+                        <ul>
+                            <li><strong>Graphic Design:</strong> Custom logos, social media posts, and brand guidelines.
+                            </li>
+                            <li><strong>Video Editing:</strong> Professional editing for YouTube, ads, and corporate
+                                promos.</li>
+                            <li><strong>VFX & Color:</strong> Motion graphics and color grading for a premium finish.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Attendance Machine -->
+                <div class="service-card glass animate-reveal">
+                    <div class="service-icon"><i class="fas fa-fingerprint"></i></div>
+                    <h3>Attendance Machine</h3>
+                    <p>Specialized design and installation of attendance tracking systems.</p>
+                    <a href="javascript:void(0)" class="service-link" data-service="attendance">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                    <div class="service-details-content" id="details-service-attendance" style="display:none;">
+                        <h4>Attendance Tracking Systems</h4>
+                        <p>Efficient management of workforce time and attendance through smart technology.</p>
+                        <ul>
+                            <li><strong>Biometric Setup:</strong> Installation of fingerprint and facial recognition
+                                scanners.</li>
+                            <li><strong>Software Integration:</strong> Connecting machine data to your payroll or HR
+                                system.</li>
+                            <li><strong>Support:</strong> Regular maintenance and data backup solutions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section-padding" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card glass animate-reveal">
+                    <div class="project-img">
+                        <div class="project-placeholder"><i class="fas fa-credit-card"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ATM Machine Design</h3>
+                        <p>A sophisticated logic-based design for automated teller machines featuring secure transaction
+                            handling, card verification modules, and real-time state management systems.</p>
+                        <a href="javascript:void(0)" class="project-link" data-project="atm">Learn More <i
+                                class="fas fa-arrow-right"></i></a>
+                        <div class="project-details-content" id="details-atm" style="display:none;">
+                            <h4>Project Overview</h4>
+                            <p>This project focused on designing a high-security ATM logic system. It includes advanced
+                                transaction handling, multi-layer verification, and a robust state machine to prevent
+                                errors during operation.</p>
+                            <ul>
+                                <li><strong>Security:</strong> Implemented 256-bit encryption logic for PIN
+                                    verification.</li>
+                                <li><strong>Logic:</strong> Used Finite State Machines (FSM) to manage card insertion,
+                                    validation, and cash dispensing.</li>
+                                <li><strong>Interface:</strong> Designed for intuitive user interaction with clear state
+                                    indicators.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass animate-reveal">
+                    <div class="project-img">
+                        <div class="project-placeholder"><i class="fas fa-battery-half"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Charger Circuit Design</h3>
+                        <p>Advanced power management circuit design optimized for high-efficiency charging, voltage
+                            regulation, and thermal protection for modern mobile devices.</p>
+                        <a href="javascript:void(0)" class="project-link" data-project="charger">Learn More <i
+                                class="fas fa-arrow-right"></i></a>
+                        <div class="project-details-content" id="details-charger" style="display:none;">
+                            <h4>Project Overview</h4>
+                            <p>A high-efficiency charger circuit designed for mobile devices, focusing on thermal
+                                management and power stability.</p>
+                            <ul>
+                                <li><strong>Efficiency:</strong> Achieved over 90% power conversion efficiency using
+                                    optimized MOSFET switching.</li>
+                                <li><strong>Protection:</strong> Integrated over-voltage, over-current, and thermal
+                                    shutdown circuits.</li>
+                                <li><strong>Design:</strong> Compact PCB layout suitable for modern portable
+                                    electronics.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass animate-reveal">
+                    <div class="project-img">
+                        <div class="project-placeholder"><i class="fas fa-microchip"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Adder Subtractor Circuit</h3>
+                        <p>High-speed digital logic implementation of a 4-bit adder-subtractor circuit using cascading
+                            gates, essential for arithmetic units in microprocessors.</p>
+                        <a href="javascript:void(0)" class="project-link" data-project="adder">Learn More <i
+                                class="fas fa-arrow-right"></i></a>
+                        <div class="project-details-content" id="details-adder" style="display:none;">
+                            <h4>Project Overview</h4>
+                            <p>An essential digital electronics project implementing a 4-bit adder-subtractor, a
+                                fundamental building block of modern CPUs.</p>
+                            <ul>
+                                <li><strong>Architecture:</strong> Utilized XOR gates for 2's complement subtraction
+                                    logic.</li>
+                                <li><strong>Performance:</strong> Validated timing diagrams for minimal propagation
+                                    delay.</li>
+                                <li><strong>Tools:</strong> Designed and simulated using Proteus and Multisim software.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- CCTV & Network -->
+                <div class="project-card glass animate-reveal">
+                    <div class="project-img">
+                        <div class="project-placeholder"><i class="fas fa-network-wired"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>CCTV & Network Infrastructure</h3>
+                        <p>Enterprise-grade security and connectivity solutions, featuring high-definition surveillance
+                            architecture, robust cabling, and intelligent remote monitoring systems.</p>
+                        <a href="javascript:void(0)" class="project-link" data-project="cctv-network">Learn More <i
+                                class="fas fa-arrow-right"></i></a>
+                        <div class="project-details-content" id="details-cctv-network" style="display:none;">
+                            <h4>Project Overview</h4>
+                            <p>This project showcases a comprehensive security and networking roadmap implemented for
+                                both
+                                residential and corporate environments. It focuses on reliability, security, and
+                                scalability.</p>
+                            <ul>
+                                <li><strong>Surveillance:</strong> Full HD IP camera installation with NVR configuration
+                                    and
+                                    global remote access.</li>
+                                <li><strong>Networking:</strong> Robust LAN/WAN setup including VLAN segmentation and
+                                    WiFi mesh optimization.</li>
+                                <li><strong>Integration:</strong> Seamless smart-home/office integration for real-time
+                                    security
+                                    alerts on mobile devices.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass animate-reveal">
+                    <div class="project-img">
+                        <div class="project-placeholder"><i class="fas fa-file-contract"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Tender Management System</h3>
+                        <p>A comprehensive full-stack solution for managing complex business tenders, featuring
+                            real-time bidding, document management, and automated evaluation metrics.</p>
+                        <a href="javascript:void(0)" class="project-link" data-project="tender">Learn More <i
+                                class="fas fa-arrow-right"></i></a>
+                        <div class="project-details-content" id="details-tender" style="display:none;">
+                            <h4>Project Overview</h4>
+                            <p>A digital transformation for procurement, removing paperwork from the tender process
+                                through a secure, real-time portal.</p>
+                            <ul>
+                                <li><strong>Live Bidding:</strong> Used WebSockets for instant auction updates.</li>
+                                <li><strong>Security:</strong> Implemented secure document storage and vendor
+                                    encryption.</li>
+                                <li><strong>Automation:</strong> Automated bid evaluation based on weighted criteria
+                                    (Technical vs. Financial).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info animate-reveal">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>gedu0194@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+25119210849</p>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="https://t.me/gedu0721"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form glass animate-reveal" id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <div id="contact-message" class="contact-message"></div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Gedam Mekuria. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Actions -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- AI Supporter Widget -->
+    <div class="ai-widget" id="ai-widget">
+        <div class="ai-icon"><i class="fas fa-robot"></i></div>
+        <div class="ai-chat-box" id="ai-chat">
+            <div class="ai-header">
+                <span>AI Supporter</span>
+                <i class="fas fa-times close-ai" id="close-ai"></i>
+            </div>
+            <div class="ai-messages" id="ai-messages">
+                <!-- Messages will be added dynamically -->
+            </div>
+            <div class="ai-input">
+                <input type="text" placeholder="Ask something..." id="ai-input-field">
+                <button id="ai-send"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Modal -->
+    <div class="project-modal" id="project-modal">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-container glass">
+            <button class="modal-close" id="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-body" id="modal-body">
+                <!-- Content will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
